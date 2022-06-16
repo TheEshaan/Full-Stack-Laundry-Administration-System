@@ -8,9 +8,7 @@ Project Internship for PrimaThink Technologies Pvt. Ltd.
 --------------------------------------------------------------------------------------------------------------------------------
 
 Creators/ Contributors:
- => Eshan S. Dhok
- => Ojas V. Dighe
- => Mohan S. Tare
+ => Eshan S. Dhok, Ojas V. Dighe and Mohan S. Tare.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
