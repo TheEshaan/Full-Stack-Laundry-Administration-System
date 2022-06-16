@@ -1,0 +1,105 @@
+.categoryCard {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0ff;
+}
+
+.categoryItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.categoryHeading {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.inputForCPKG {
+  background-color: beige;
+  border: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.editButton {
+  font-size: 16px;
+}
+
+.saveButton {
+  font-size: 16px;
+}
+
+.categoryImg {
+  height: 80%;
+  width: 80%;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  padding: 10px;
+}
+.price-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.price-element {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.price-input {
+  width: 60px;
+}
+
+.editSaveButton1 {
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Helvetica;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.editSaveButton1:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.editSaveButton1:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.editSaveButton1:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}

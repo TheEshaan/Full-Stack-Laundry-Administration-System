@@ -1,0 +1,40 @@
+.laundry-row {
+  display: flex;
+  align-items: center;
+}
+
+.laundry-row:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+.table-data {
+  color: rgb(73, 70, 70);
+  font-weight: 400;
+  text-align: center;
+  padding: 18px 10px 18px 10px;
+}
+
+.line-breaker {
+  height: 1px;
+  background-color: lightgray;
+}
+
+.extraInfo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.arrow-buttons {
+  border-radius: 50%;
+  background-color: rgba(76, 76, 233, 0.89);
+  border: 1px solid white;
+  color: white;
+  margin-right: 10px;
+}
+
+.arrow-buttons:hover {
+  transform: scale(1.5);
+  transition: 0.2s;
+  cursor: pointer;
+}

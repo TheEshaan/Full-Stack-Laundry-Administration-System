@@ -1,0 +1,19 @@
+.user-row {
+  display: flex;
+}
+
+.user-row:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+.table-data {
+  color: rgb(73, 70, 70);
+  font-weight: 400;
+  text-align: center;
+  padding: 18px 10px 18px 10px;
+}
+
+.line-breaker {
+  height: 1px;
+  background-color: lightgray;
+}
