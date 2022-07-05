@@ -53,7 +53,7 @@ export default class Example extends PureComponent {
             fill="#8884d8"
             dataKey="Revenue"
           >
-            {data.map((entry, index) => (
+            {this.props.data.map((entry, index) => (
               <Cell
                 key={`cell-${index}`}
                 fill={COLORS[index % COLORS.length]}
